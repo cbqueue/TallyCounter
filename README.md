@@ -76,7 +76,9 @@ You are an expert Android developer. Write clean, modern Kotlin code using Jetpa
 ViewModel for a single-screen Tally Counter app. The app must persist state across app closures
 using DataStore or SharedPreferences (or SavedStateHandle).
 
-Core App RequirementsUI Framework: Jetpack Compose (Single main screen).
+Core App Requirements
+
+UI Framework: Jetpack Compose (Single main screen).
 
 Initial State: Load the last saved count on startup. If no saved state exists, start at 0.
 

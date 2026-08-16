@@ -50,4 +50,9 @@ dependencies {
 
     // DataStore (preferences) for persistent storage
     implementation(libs.androidx.datastore.preferences)
+
+    // Testing
+    testImplementation(libs.junit4)
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
 }
